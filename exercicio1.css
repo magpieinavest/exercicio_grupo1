@@ -1,0 +1,70 @@
+<head>
+<style>
+body {
+	margin: 0px;
+	font-family: helvetica;
+}
+
+.header {
+  padding: 50px;
+  top: 0px;
+  text-align: center;
+  background: #9932CC;
+  color: white;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+p {
+	font-size: 20px;
+}
+
+.navbar {
+  display: flex;
+  background-color: #333;
+  height: screen.height;
+  width: screen.width;
+}
+.container {
+	margin-top: 15%;
+	margin-bottom: 15%;
+	align-items: center;
+}
+.navbar a {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+
+.container a:hover {
+	color: #9932CC;
+}
+
+@media screen and (max-width: 900px) {
+ .navbar {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 900px){
+	.navbar {
+		justify-content: center;
+		height: 70px;
+	}
+	.container{
+		margin-left: 50px;
+		margin-right: 50px;
+		align-self: center;
+	}
+	.container a{
+		font-size: 20px;
+	}
+}
+</style>
+</head>
+<body>
